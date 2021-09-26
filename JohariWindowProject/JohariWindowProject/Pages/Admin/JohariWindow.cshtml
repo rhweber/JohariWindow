@@ -1,0 +1,41 @@
+﻿@page
+@model JohariWindowProject.Pages.Admin.JohariWindowModel
+@{
+}
+<style>
+    body {
+        background-color: powderblue;
+    }
+
+    h1 {
+        color: black;
+    }
+
+    p {
+        color: black;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto auto;
+        background-color: aliceblue;
+        border: 1px solid;
+    }
+
+    .grid-item {
+        border: 1px solid;
+        padding: 10px;
+        font-size: 20px;
+        text-align: center;
+    }
+</style>
+<div class="text-center">
+    <h1 class="display-4">Johari Window for Client:</h1>
+    <p>FIRSTNAME PLACEHOLDER, LASTNAME PLACEHOLDER</p>
+    <div class="grid-container">
+        <div class="grid-item">OPEN ADJECTIVE MATCHES GO HERE</div>
+        <div class="grid-item">BLIND ADJECTIVE MATCHES GO HERE</div>
+        <div class="grid-item">HIDDEN ADJECTIVE MATCHES GO HERE</div>
+        <div class="grid-item">UNKNOWN ADJECTIVES GO HERE</div>
+    </div>
+</div>
