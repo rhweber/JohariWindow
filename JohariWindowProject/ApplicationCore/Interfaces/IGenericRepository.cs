@@ -28,10 +28,10 @@ namespace ApplicationCore.Interfaces
         IEnumerable<T> List();
 
         //Returns an Enumerable list of results to iterate through. 
-        IEnumerable<T> List(Expression<Func<T, bool>> predicate, Expression<Func<T, int>> orderBy = null, string includes = null);
+        IEnumerable<T> List(Expression<Func<T, bool>> predicate, Expression<Func<T, string>> orderBy = null, string includes = null);
 
         //Same as above by Asynchronous action
-        Task<IEnumerable<T>> ListAsync(Expression<Func<T, bool>> predicate, Expression<Func<T, int>> orderBy = null, string includes = null);
+        Task<IEnumerable<T>> ListAsync(Expression<Func<T, bool>> predicate, Expression<Func<T, string>> orderBy = null, string includes = null);
 
         //Add (Insert) a new record instance
         void Add(T entity);

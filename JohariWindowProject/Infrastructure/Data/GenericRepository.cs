@@ -134,7 +134,7 @@ namespace Infrastructure.Data
             return _dbContext.Set<T>().ToList().AsEnumerable();
         }
 
-        public virtual IEnumerable<T> List(Expression<Func<T, bool>> predicate, Expression<Func<T, int>> orderBy = null, string includes = null)
+        public virtual IEnumerable<T> List(Expression<Func<T, bool>> predicate, Expression<Func<T, string>> orderBy = null, string includes = null)
         {
             IQueryable<T> queryable = _dbContext.Set<T>();
             if (predicate != null && includes == null)
@@ -176,7 +176,7 @@ namespace Infrastructure.Data
 
         }
 
-        public virtual async Task<IEnumerable<T>> ListAsync(Expression<Func<T, bool>> predicate, Expression<Func<T, int>> orderBy = null, string includes = null)
+        public virtual async Task<IEnumerable<T>> ListAsync(Expression<Func<T, bool>> predicate, Expression<Func<T, string>> orderBy = null, string includes = null)
         {
             IQueryable<T> queryable = _dbContext.Set<T>();
             if (predicate != null && includes == null)

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.Identity;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
@@ -8,24 +9,16 @@ using System.Threading.Tasks;
 
 namespace ApplicationCore.Models
 {
-    public class Client
+    public class Client : IdentityUser
     {
-        [Key]
-        public int ClientID { get; set; }
-
-        [Required]
-        [Display(Name = "First Name TEST")]
+        [ForeignKey("FirstName")]
         public string FirstName { get; set; }
 
-        [Required]
+        [ForeignKey("LastName")]
         public string LastName { get; set; }
 
         public DateTime DOB { get; set; }
 
         public string Gender { get; set; }
-
-        //Connect Objects or Tables
-        //[ForeignKey("ASPNETUserID")]
-        //public virtual ASPNETUserID ASPNETUserID { get; set; }
     }
 }

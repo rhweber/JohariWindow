@@ -1,9 +1,50 @@
 ﻿@page
 @model JohariWindowProject.Pages.Admin.Clients.ClientModel
+<form method="post">
+    <div class="text-left">
+        <h1 class="display-4">Adjective Checkbox Demo</h1>
+        <br />
+        <br />
+        @if (Model.SelectedAdjectivesName != null)
+        {
+            <h5>Selected Categories:@Model.SelectedAdjectivesName </h5>
+            <h5>Selected Categories:@Model.SelectedAdjectivesId </h5>
+            <br />
+        }
+        @{ for (int i = 0; i < @Model.Adjectives.Count; i++)
+            {
+                var j = i + 1;
+                <input asp-for="@Model.Adjectives[i].Value" type="hidden" />
+                <input asp-for="@Model.Adjectives[i].Text" type="hidden" />
+                {
+                    <input asp-for="@Model.Adjectives[i].Selected" /> @Model.Adjectives[i].Text
+                }
 
-    <div class="text-center">
-        <h1 class="display-4">Client </h1>
+                if(j % 3 == 0)
+                {
+                    <br />
+                }
+            }
+          }
+        <div class="form-group mt-2">
+            <input type="submit" value="Submit" class="btn btn-primary" />
+        </div>
     </div>
+</form>
+<div class="text-center">
+    <h1 class="display-4">Client </h1>
 
-@{
+
+
+    <h3 class="display-4">Positive Adjectives </h3>
+
+
+    <h3 class="display-4">Negative Adjectives </h3>
+    
+
+
+</div>
+
+@section Scripts {
+    <script src="~/js/adjective.js"></script>
 }

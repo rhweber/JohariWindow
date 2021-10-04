@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "HmJ/HctkERhTqWnUViJ94F9rNlv+2aYNxVlauZueO1f7nlgdc19/8S4ZKWEhisQMdsqarEqvmDeXzUGI7K4eHQ==",
+  "dgSpecHash": "29wP/m9fsyhwVGE1qWNbfPtg4CtO4RtcLf3G15ChWqYy2FcT0yuf/CiFJZf3//ZCAm70ua+CFKwj9sGzmHMz5Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\Ryan\\Desktop\\homework\\Fall 2021\\CS 4790\\JohariWindow\\JohariWindowProject\\Infrastructure\\Infrastructure.csproj",
   "expectedPackageFiles": [
@@ -53,6 +53,8 @@
     "C:\\Users\\Ryan\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
     "C:\\Users\\Ryan\\.nuget\\packages\\newtonsoft.json\\10.0.1\\newtonsoft.json.10.0.1.nupkg.sha512",
     "C:\\Users\\Ryan\\.nuget\\packages\\runtime.native.system\\4.3.0\\runtime.native.system.4.3.0.nupkg.sha512",
+    "C:\\Users\\Ryan\\.nuget\\packages\\sendgrid\\9.24.3\\sendgrid.9.24.3.nupkg.sha512",
+    "C:\\Users\\Ryan\\.nuget\\packages\\starkbank-ecdsa\\1.3.1\\starkbank-ecdsa.1.3.1.nupkg.sha512",
     "C:\\Users\\Ryan\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
     "C:\\Users\\Ryan\\.nuget\\packages\\system.collections.concurrent\\4.3.0\\system.collections.concurrent.4.3.0.nupkg.sha512",
     "C:\\Users\\Ryan\\.nuget\\packages\\system.collections.immutable\\5.0.0\\system.collections.immutable.5.0.0.nupkg.sha512",
