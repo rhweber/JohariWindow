@@ -25,6 +25,6 @@ namespace Infrastructure.Data
 
         public DbSet<FriendResponse> FriendResponse { get; set; }
 
-        public DbSet<ApplicationUser> ApplicationUser { get; set; }
+        //public DbSet<ApplicationUser> ApplicationUser { get; set; }
     }
 }

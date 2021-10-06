@@ -11,13 +11,14 @@ namespace ApplicationCore.Models
 {
     public class Friend : IdentityUser
     {
-        public string FriendsClientId { get; set; }
         
-        [ForeignKey("FirstName")]
-        public string FirstName { get; set; }
+        //public string FriendsClientId { get; set; }
+        
+        //[ForeignKey("FirstName")]
+        //public string FirstName { get; set; }
 
-        [ForeignKey("LastName")]
-        public string LastName { get; set; }
+        //[ForeignKey("LastName")]
+        //public string LastName { get; set; }
 
         public string Relationship { get; set; }
 

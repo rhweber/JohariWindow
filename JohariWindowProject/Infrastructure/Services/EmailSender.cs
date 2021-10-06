@@ -26,7 +26,7 @@ namespace Infrastructure.Services
             var msg = new SendGridMessage()
             {
                 //THIS MUST MATCH A VERIFIED EMAIL ACCOUNT IN SENDGRID
-                From = new EmailAddress("henrydoan@mail.weber.edu", Options.SendGridUser),
+                From = new EmailAddress("ryanhaltli@mail.weber.edu", Options.SendGridUser),
                 Subject = subject,
                 PlainTextContent = message,
                 HtmlContent = message

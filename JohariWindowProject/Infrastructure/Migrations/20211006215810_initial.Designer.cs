@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Infrastructure.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20211002195854_identity")]
-    partial class identity
+    [Migration("20211006215810_initial")]
+    partial class initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -283,28 +283,9 @@ namespace Infrastructure.Migrations
                     b.ToTable("AspNetUserTokens");
                 });
 
-            modelBuilder.Entity("ApplicationCore.Models.ApplicationUser", b =>
-                {
-                    b.HasBaseType("Microsoft.AspNetCore.Identity.IdentityUser");
-
-                    b.Property<string>("FirstName")
-                        .HasColumnType("nvarchar(max)")
-                        .HasColumnName("ApplicationUser_FirstName");
-
-                    b.Property<string>("LastName")
-                        .HasColumnType("nvarchar(max)")
-                        .HasColumnName("ApplicationUser_LastName");
-
-                    b.HasDiscriminator().HasValue("ApplicationUser");
-                });
-
             modelBuilder.Entity("ApplicationCore.Models.Client", b =>
                 {
                     b.HasBaseType("Microsoft.AspNetCore.Identity.IdentityUser");
-
-                    b.Property<string>("ASPNETUserID")
-                        .HasColumnType("nvarchar(max)")
-                        .HasColumnName("Client_ASPNETUserID");
 
                     b.Property<DateTime>("DOB")
                         .HasColumnType("datetime2");
@@ -324,9 +305,6 @@ namespace Infrastructure.Migrations
             modelBuilder.Entity("ApplicationCore.Models.Friend", b =>
                 {
                     b.HasBaseType("Microsoft.AspNetCore.Identity.IdentityUser");
-
-                    b.Property<string>("ASPNETUserID")
-                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("HowLong")
                         .HasColumnType("nvarchar(max)");

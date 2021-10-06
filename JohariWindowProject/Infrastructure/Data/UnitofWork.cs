@@ -21,7 +21,7 @@ namespace Infrastructure.Data
         private IGenericRepository<Adjective> _Adjective;
         private IGenericRepository<Friend> _Friend;
         private IGenericRepository<FriendResponse> _FriendResponse;
-        private IGenericRepository<ApplicationUser> _ApplicationUser;
+        //private IGenericRepository<ApplicationUser> _ApplicationUser;
 
         public IGenericRepository<Client> Client
         {
@@ -68,14 +68,14 @@ namespace Infrastructure.Data
             }
         }
 
-        public IGenericRepository<ApplicationUser> ApplicationUser
-        {
-            get
-            {
-                if (_ApplicationUser == null) _ApplicationUser = new GenericRepository<ApplicationUser>(_dbContext);
-                return _ApplicationUser;
-            }
-        }
+        //public IGenericRepository<ApplicationUser> ApplicationUser
+        //{
+        //    get
+        //    {
+        //        if (_ApplicationUser == null) _ApplicationUser = new GenericRepository<ApplicationUser>(_dbContext);
+        //        return _ApplicationUser;
+        //    }
+        //}
 
         public int Commit()
         {
