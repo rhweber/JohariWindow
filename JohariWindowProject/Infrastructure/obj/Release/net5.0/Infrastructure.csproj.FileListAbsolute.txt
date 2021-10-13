@@ -287,7 +287,6 @@ C:\Users\Ryan\Desktop\homework\Fall 2021\CS 4790\JohariWindow\JohariWindowProjec
 C:\Users\Ryan\Desktop\homework\Fall 2021\CS 4790\JohariWindow\JohariWindowProject\Infrastructure\obj\Release\net5.0\Infrastructure.AssemblyInfoInputs.cache
 C:\Users\Ryan\Desktop\homework\Fall 2021\CS 4790\JohariWindow\JohariWindowProject\Infrastructure\obj\Release\net5.0\Infrastructure.AssemblyInfo.cs
 C:\Users\Ryan\Desktop\homework\Fall 2021\CS 4790\JohariWindow\JohariWindowProject\Infrastructure\obj\Release\net5.0\Infrastructure.csproj.CoreCompileInputs.cache
-C:\Users\Ryan\Desktop\homework\Fall 2021\CS 4790\JohariWindow\JohariWindowProject\Infrastructure\obj\Release\net5.0\Infrastructure.csproj.CopyComplete
 C:\Users\Ryan\Desktop\homework\Fall 2021\CS 4790\JohariWindow\JohariWindowProject\Infrastructure\obj\Release\net5.0\Infrastructure.dll
 C:\Users\Ryan\Desktop\homework\Fall 2021\CS 4790\JohariWindow\JohariWindowProject\Infrastructure\obj\Release\net5.0\ref\Infrastructure.dll
 C:\Users\Ryan\Desktop\homework\Fall 2021\CS 4790\JohariWindow\JohariWindowProject\Infrastructure\obj\Release\net5.0\Infrastructure.pdb

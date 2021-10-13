@@ -8,20 +8,20 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <TimeStampOfAssociatedLegacyPublishXmlFile />
     <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAJH0Z5euyYEO6EN2bfTpZuQAAAAACAAAAAAAQZgAAAAEAACAAAAAcbzJqrPWVb5F3ju6qslYxt88VRFND/TD6R9hlno03rwAAAAAOgAAAAAIAACAAAAA6lPJTEM+yd6R7ME+021stS8fl//bhvU2Lv8Ma8Gkm+iAAAAAN4nRPIVqLwBJicdWit/gZM7KJeQynl+rWIT0343v8ZUAAAAAfKdZlHZ/CBLqJ9kNed9U7ITLixuBanvzPxHhqa95RFxdmy2uiySJvdK406tnfSLEERdOQob0utJFlj8psmhmo</EncryptedPassword>
     <_PublishTargetUrl>ftp://ftp.site4now.net/mysite</_PublishTargetUrl>
-    <History>True|2021-10-04T03:40:04.0425910Z;True|2021-09-27T22:58:16.0382761-06:00;</History>
+    <History>True|2021-10-13T05:14:48.6315739Z;False|2021-10-12T23:14:00.5492291-06:00;True|2021-10-12T23:11:04.0105722-06:00;False|2021-10-12T23:10:10.4470419-06:00;True|2021-10-12T23:07:14.5188649-06:00;True|2021-10-06T16:52:23.4771118-06:00;True|2021-10-03T21:40:04.0425910-06:00;True|2021-09-27T22:58:16.0382761-06:00;</History>
   </PropertyGroup>
   <ItemGroup>
     <File Include="ApplicationCore.dll">
-      <publishTime>10/03/2021 21:38:15</publishTime>
+      <publishTime>10/12/2021 23:06:23</publishTime>
     </File>
     <File Include="ApplicationCore.pdb">
-      <publishTime>10/03/2021 21:38:15</publishTime>
+      <publishTime>10/12/2021 23:06:23</publishTime>
     </File>
     <File Include="appsettings.Development.json">
       <publishTime>09/26/2021 14:05:05</publishTime>
     </File>
     <File Include="appsettings.json">
-      <publishTime>10/02/2021 13:22:28</publishTime>
+      <publishTime>10/12/2021 23:13:14</publishTime>
     </File>
     <File Include="cs/Microsoft.CodeAnalysis.CSharp.resources.dll">
       <publishTime>11/12/2020 00:15:14</publishTime>
@@ -78,10 +78,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/02/2020 13:07:58</publishTime>
     </File>
     <File Include="Infrastructure.dll">
-      <publishTime>10/03/2021 21:38:17</publishTime>
+      <publishTime>10/12/2021 23:06:24</publishTime>
     </File>
     <File Include="Infrastructure.pdb">
-      <publishTime>10/03/2021 21:38:17</publishTime>
+      <publishTime>10/12/2021 23:06:24</publishTime>
     </File>
     <File Include="it/Microsoft.CodeAnalysis.CSharp.resources.dll">
       <publishTime>11/12/2020 00:15:14</publishTime>
@@ -108,25 +108,25 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/12/2020 00:16:28</publishTime>
     </File>
     <File Include="JohariWindowProject.deps.json">
-      <publishTime>10/03/2021 21:38:23</publishTime>
+      <publishTime>10/12/2021 23:14:19</publishTime>
     </File>
     <File Include="JohariWindowProject.dll">
-      <publishTime>10/03/2021 21:38:18</publishTime>
+      <publishTime>10/12/2021 23:14:17</publishTime>
     </File>
     <File Include="JohariWindowProject.exe">
-      <publishTime>10/03/2021 21:38:18</publishTime>
+      <publishTime>10/12/2021 23:14:17</publishTime>
     </File>
     <File Include="JohariWindowProject.pdb">
-      <publishTime>10/03/2021 21:38:18</publishTime>
+      <publishTime>10/12/2021 23:14:17</publishTime>
     </File>
     <File Include="JohariWindowProject.runtimeconfig.json">
-      <publishTime>10/03/2021 21:38:19</publishTime>
+      <publishTime>10/12/2021 23:06:27</publishTime>
     </File>
     <File Include="JohariWindowProject.Views.dll">
-      <publishTime>10/03/2021 21:38:19</publishTime>
+      <publishTime>10/12/2021 23:14:18</publishTime>
     </File>
     <File Include="JohariWindowProject.Views.pdb">
-      <publishTime>10/03/2021 21:38:19</publishTime>
+      <publishTime>10/12/2021 23:14:18</publishTime>
     </File>
     <File Include="ko/Microsoft.CodeAnalysis.CSharp.resources.dll">
       <publishTime>11/12/2020 00:15:14</publishTime>
@@ -384,7 +384,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/12/2020 00:16:28</publishTime>
     </File>
     <File Include="web.config">
-      <publishTime>10/03/2021 21:38:24</publishTime>
+      <publishTime>10/12/2021 23:14:19</publishTime>
     </File>
     <File Include="wwwroot/css/site.css">
       <publishTime>09/26/2021 14:05:05</publishTime>
